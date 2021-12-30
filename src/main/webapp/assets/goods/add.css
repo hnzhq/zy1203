@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	background-color: #FFFFCC;
+}
+h1{
+	text-align: center;
+}
+legend{
+	margin-left: 300px;
+}
+.goods-form>div input[type=text]{
+	width: 420px;
+	height: 42px;
+	outline: none;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	margin-left: 100px;
+	border-radius: 5px;
+}
+.goods-form>div{
+	margin-bottom: 20px;
+}
+.goods-form>div>label{
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	font: 24px;
+}
+
+.goods-form .arrival-wrapper div{
+	display: inline-block;
+	margin-left: 100px
+}
+.goods-form .arrival-wrapper div>*{
+	vertical-align: middle;
+}
+.goods-form .arrival-wrapper div>input{
+	width: 25px;
+	height: 25px;
+}
+button{
+	width:120px;
+	height:35px;
+	margin-left:100px;
+	border-radius:10px;
+}
